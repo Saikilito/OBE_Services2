@@ -1,0 +1,33 @@
+{
+  "name": "obe_services",
+  "version": "1.0.0",
+  "description": "Gestor de servicios de obe",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd ../views && yarn start",
+    "server": "nodemon src/server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saikilito/OBE_Services.git"
+  },
+  "author": "Saikilito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saikilito/OBE_Services/issues"
+  },
+  "homepage": "https://github.com/Saikilito/OBE_Services#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.6",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}

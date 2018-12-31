@@ -1,0 +1,45 @@
+.root
+{
+    background-image: url('/assets/slider/sld8e.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.s1
+{
+    color: white;
+    width: auto;
+    height: 100%;
+    background-color: #0288D1;
+    margin: 0;
+    padding: 4em;
+    text-align: center;
+}
+
+.text
+{
+    margin: 2rem;
+}
+
+.s2
+{
+    color: white;
+    background-color: #00BCD4;
+    margin: 0;
+    padding: 4em;
+    text-align: center;
+    height: 100%;
+    width: auto;
+}
+
+.s3
+{
+    color: white;
+    background-color:#03A9F4 ;
+    margin: 0;
+    padding: 4em;
+    text-align: center;
+    height: 100%;
+    width: auto;
+}

@@ -1,0 +1,43 @@
+.root{
+    background-image: url('/assets/slider/sld7.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.flipper
+{
+    position: static !important;
+}
+.square1{
+    margin: 0 0;
+    width: 90%; 
+    height: 5em; 
+    background: #428bca;
+    font-size: 3em;
+}
+.square12{
+    margin: 0 0;
+    width: 90%; 
+    height: 2.6em; 
+    background: #428bca;
+    
+}
+.square2{
+    margin: auto auto;
+    width: 90%; 
+    height: 2.5em; 
+    background: #428bca;
+    
+}
+.square3{
+    margin: 0.3em 0;
+    width: 100%; 
+    height: 93%; 
+    font-size: 2em;
+    background: #428bca;
+    transform: translate(60%,0%);
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.root
+{
+    width: 100%;
+    min-height: 60vh;
+}
+
+.texto
+{
+    margin: 2em 10em;
+    background-color: rgb(77, 185, 187) !important;
+}

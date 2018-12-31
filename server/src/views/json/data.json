@@ -1,0 +1,505 @@
+{
+    "users": [
+        {
+            "type": "student",
+            "name": "Maria Sophia",
+            "lastname": "Rodriguez Medina",
+            "ci": "19222369",
+            "sexo": "female",
+            "email": "sophy123@gmail.com",
+            "password": "1234",
+            "faculty": "Ciencias",
+            "school": "Quimica",
+            "medal": {
+                "status": "without"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "student",
+            "name": "Genesis Katiuska",
+            "lastname": "Paredes Gomez",
+            "ci": "20558777",
+            "sexo": "female",
+            "email": "gene123@gmail.com",
+            "password": "1234",
+            "faculty": "Ciencias",
+            "school": "Quimica",
+            "medal": {
+                "status": "false"
+            },
+            "scholarship": "Estudiantil",
+            "scholarshipStatus": "waiting",
+            "request": {
+                "id": {
+                    "placeOfBirth": "distrito capital",
+                    "birthDate": ISODate("1991-05-04T00:00:00Z"),
+                    "stateOfBirth": "distrito capital",
+                    "age": 27,
+                    "civilStatus": "divorciado",
+                    "phoneNumber": 4263555512,
+                    "studyDirection": "san martin",
+                    "residencePhone": 4125558899,
+                    "stateResidence": "distrito capital",
+                    "municipalityResidence": "libertador",
+                    "parishResidence": "santa lopez",
+                    "homeStudent": "ciudad universitaria",
+                    "homeState": "distrito capital",
+                    "homeMunicipality": "libertador",
+                    "homeParish": "las tres gracias",
+                    "homePhone": 4123365512,
+                    "otherPhone": 4267789966
+                },
+                "socioeconomic": {
+                    "work": "si",
+                    "timeWork": 6,
+                    "dedicationWork": "por horas",
+                    "benefit": "no",
+                    "liveWith": "tía",
+                    "studentMoney": {
+                        "getFamilyMoney": 1500,
+                        "otherMoney": 300,
+                        "total": 1800
+                    },
+                    "studentExpenses": {
+                        "paymentResidence": 800,
+                        "food": 2000,
+                        "transport": 200,
+                        "studyMaterials": 1000,
+                        "reacreation": 500,
+                        "personalExpenses": 500,
+                        "medicalExpenses": 300,
+                        "otherExpenses": 200,
+                        "totalExpenses": 6000
+                    },
+                    "familyMoney": {
+                        "familyIncome": 15000,
+                        "housingExpenses": 1000,
+                        "foodExpenses": 3000,
+                        "servicesExpenses": 500,
+                        "phoneExpenses": 500,
+                        "condominuim": 500,
+                        "transport": 1500,
+                        "medicalExpenses": 1500,
+                        "otherExpenses": 500,
+                        "totalExpenses": 9000,
+                        "nameResponsible": "rosa garcia",
+                        "responsibleIncome": 5000,
+                        "familyBurden": 4
+                    }
+                },
+                "academicData": {
+                    "faculty": "ingenieria",
+                    "school": "quimica",
+                    "sem": "5to Sem",
+                    "average": 12,
+                    "efficiency": 1,
+                    "academicIndex": 11.5
+                },
+                "schedule": null
+            }
+        },
+        {
+            "type": "student",
+            "name": "Valery Isabel",
+            "lastname": "Ruggeri Vasquez",
+            "ci": "27339157",
+            "sexo": "female",
+            "email": "valery123@gmail.com",
+            "password": "1234",
+            "faculty": "Humanidades",
+            "school": "Psicologia",
+            "medal": {
+                "status": "without"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "student",
+            "name": "Antony Andriew",
+            "lastname": "Briceño Barrios",
+            "ci": "25889741",
+            "sexo": "male",
+            "email": "antony123@gmail.com",
+            "password": "1234",
+            "faculty": "Ingenieria",
+            "school": "Electrica",
+            "medal": {
+                "status": "false"
+            },
+            "scholarship": "Otra Beca",
+            "scholarshipStatus": "waiting",
+            "request": {
+                "id": {
+                    "placeOfBirth": "miranda",
+                    "birthDate": ISODate("1998-02-23T00:00:00Z"),
+                    "stateOfBirth": "los teques",
+                    "age": 20,
+                    "civilStatus": "casado",
+                    "phoneNumber": 4129995511,
+                    "studyDirection": "caracas",
+                    "residencePhone": 2126778899,
+                    "stateResidence": "caracas",
+                    "municipalityResidence": "libertador",
+                    "parishResidence": "el valle",
+                    "homeStudent": "los teques",
+                    "homeState": "miranda",
+                    "homeMunicipality": "guaicaipuro",
+                    "homeParish": "el jarillo",
+                    "homePhone": 2124332211,
+                    "otherPhone": 4141112345
+                },
+                "socioeconomic": {
+                    "work": "no",
+                    "timeWork": 0,
+                    "dedicationWork": "no",
+                    "benefit": "",
+                    "liveWith": "abuelos",
+                    "studentMoney": {
+                        "getFamilyMoney": 500,
+                        "otherMoney": 500,
+                        "total": 1000
+                    },
+                    "studentExpenses": {
+                        "paymentResidence": 0,
+                        "food": 2000,
+                        "transport": 500,
+                        "studyMaterials": 1500,
+                        "reacreation": 500,
+                        "personalExpenses": 1500,
+                        "medicalExpenses": 1500,
+                        "otherExpenses": 500,
+                        "totalExpenses": 7000
+                    },
+                    "familyMoney": {
+                        "familyIncome": 16200,
+                        "housingExpenses": 1000,
+                        "foodExpenses": 5000,
+                        "servicesExpenses": 500,
+                        "phoneExpenses": 500,
+                        "condominuim": 500,
+                        "transport": 1500,
+                        "medicalExpenses": 3000,
+                        "otherExpenses": 1000,
+                        "totalExpenses": 14000,
+                        "nameResponsible": "johana barrios",
+                        "responsibleIncome": 6000,
+                        "familyBurden": 3
+                    }
+                },
+                "academicData": {
+                    "faculty": "ingenieria",
+                    "school": "petroleo",
+                    "sem": "5to Sem",
+                    "average": 15,
+                    "efficiency": 0.8,
+                    "academicIndex": 13.5
+                },
+                "schedule": null
+            }
+        },
+        {
+            "type": "student",
+            "name": "Cartherine Lisa",
+            "lastname": "Cedeño Mata",
+            "ci": "22189339",
+            "sexo": "female",
+            "email": "catherine123@gmail.com",
+            "password": "1234",
+            "faculty": "Ingenieria",
+            "school": "Petróleo",
+            "medal": {
+                "status": "without"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "student",
+            "name": "Mariana Vasena",
+            "lastname": "Franco Montero",
+            "ci": "23912971",
+            "sexo": "female",
+            "email": "mariana123@gmail.com",
+            "password": "1234",
+            "faculty": "Ingenieria",
+            "school": "Petróleo",
+            "medal": {
+                "status": "false"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "student",
+            "name": "Maria Eliana",
+            "lastname": "Balsa Montero",
+            "ci": "20592919",
+            "sexo": "female",
+            "email": "maria123@gmail.com",
+            "password": "1234",
+            "faculty": "Ingenieria",
+            "school": "Petróleo",
+            "medal": {
+                "status": "without"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "student",
+            "name": "Keyla Ismar",
+            "lastname": "Moreno Oropeza",
+            "ci": "23232912",
+            "sexo": "female",
+            "email": "keyla123@gmail.com",
+            "password": "1234",
+            "faculty": "FACES",
+            "school": "Educacion",
+            "medal": {
+                "status": "without"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "student",
+            "name": "Liz Alejandra",
+            "lastname": "Pernalete Becerra",
+            "ci": "18133315",
+            "sexo": "female",
+            "email": "liz123@gmail.com",
+            "password": "1234",
+            "faculty": "Medicina",
+            "school": "Neurociquiatria",
+            "medal": {
+                "status": "false"
+            },
+            "scholarship": "Ayudantia",
+            "scholarshipStatus": "waiting",
+            "request": {
+                "id": {
+                    "placeOfBirth": "distrito capital",
+                    "birthDate": ISODate("1997-06-05T00:00:00Z"),
+                    "stateOfBirth": "distrito capital",
+                    "age": 21,
+                    "civilStatus": "soltero",
+                    "phoneNumber": 4269513344,
+                    "studyDirection": "caracas",
+                    "residencePhone": 2125558688,
+                    "stateResidence": "distrito capital",
+                    "municipalityResidence": "libertador",
+                    "parishResidence": "el valle",
+                    "homeStudent": "caracas",
+                    "homeState": "distrito capital",
+                    "homeMunicipality": "libertador",
+                    "homeParish": "el valle",
+                    "homePhone": 2124996658,
+                    "otherPhone": 4129951122
+                },
+                "socioeconomic": {
+                    "work": "no",
+                    "timeWork": 0,
+                    "dedicationWork": "no",
+                    "benefit": "no",
+                    "liveWith": "padres",
+                    "studentMoney": {
+                        "getFamilyMoney": 10000,
+                        "otherMoney": 10000,
+                        "total": 20000
+                    },
+                    "studentExpenses": {
+                        "paymentResidence": 2000,
+                        "food": 2000,
+                        "transport": 300,
+                        "studyMaterials": 2200,
+                        "reacreation": 1000,
+                        "personalExpenses": 2000,
+                        "medicalExpenses": 2000,
+                        "otherExpenses": 5000,
+                        "totalExpenses": 19000
+                    },
+                    "familyMoney": {
+                        "familyIncome": 60000,
+                        "housingExpenses": 1000,
+                        "foodExpenses": 1000,
+                        "servicesExpenses": 1000,
+                        "phoneExpenses": 1000,
+                        "condominuim": 1000,
+                        "transport": 2000,
+                        "medicalExpenses": 2000,
+                        "otherExpenses": 1000,
+                        "totalExpenses": 10000,
+                        "nameResponsible": "sucy martines",
+                        "responsibleIncome": 30000,
+                        "familyBurden": 3
+                    }
+                },
+                "academicData": {
+                    "faculty": "ingenieria",
+                    "school": "metalurgica",
+                    "sem": "9no Sem",
+                    "average": 10,
+                    "efficiency": 0.9,
+                    "academicIndex": 10
+                },
+                "schedule": {
+                    "mondayE": "13:22",
+                    "mondayS": "15:30",
+                    "tuesdayE": "12:00",
+                    "tuesdayS": "17:00",
+                    "wednesdayE": "10:00",
+                    "wednesdayS": "12:30",
+                    "thursdayE": "15:00",
+                    "thursdayS": "17:00",
+                    "fridayE": "10:30",
+                    "fridayS": "17:00",
+                    "activity": "Ayuda en la biblioteca",
+                    "skills": "Socializar, Comunicaciones"
+                }
+            }
+        },
+        {
+            "type": "student",
+            "name": "Keisy Manuela",
+            "lastname": "Marcano Manaure",
+            "ci": "19339565",
+            "sexo": "female",
+            "email": "keisy123@gmail.com",
+            "password": "1234",
+            "faculty": "Odontología",
+            "school": "Odontología",
+            "medal": {
+                "status": "without"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "student",
+            "name": "Naomi Karolina",
+            "lastname": "Cedeño Manaure",
+            "ci": "15519111",
+            "sexo": "female",
+            "email": "naomi123@gmail.com",
+            "password": "1234",
+            "faculty": "Odontología",
+            "school": "Odontología",
+            "medal": {
+                "status": "false"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "student",
+            "name": "Jose Manuel",
+            "lastname": "Garcia Cordero",
+            "ci": "17599189",
+            "sexo": "female",
+            "email": "jose123@gmail.com",
+            "password": "1234",
+            "faculty": "Ciencias Políticas",
+            "school": "Estudios Internacionales",
+            "medal": {
+                "status": "without"
+            },
+            "scholarship": false,
+            "scholarshipStatus": "without"
+        },
+        {
+            "type": "worker",
+            "name": "Alis Gimena",
+            "lastname": "Perez Rondon",
+            "ci": "18552333",
+            "sexo": "female",
+            "email": "alis123@gmail.com",
+            "password": "1234",
+            "department": "central",
+            "position": "Trabajador social"
+        },
+        {
+            "type": "adm",
+            "name": "Kembert I",
+            "lastname": "Nieves B",
+            "ci": 21283323,
+            "sex": "male",
+            "email": "kembert@gmail.com",
+            "password": "1234",
+            "__v": 0,
+            "position": "Administrador"
+        },
+        {
+            "type": "worker",
+            "name": "Melissa E",
+            "lastname": "Alvarado S",
+            "ci": 19113927,
+            "sex": "female",
+            "email": "melissa@gmail.com",
+            "password": "1234",
+            "__v": 0
+        },
+        {
+            "type": "worker",
+            "name": "Vannesa A",
+            "lastname": "Tavares C",
+            "ci": 20321212,
+            "sex": "female",
+            "email": "vanessa@gmail.com",
+            "password": "1234",
+            "__v": 0
+        },
+        {
+            "type": "worker",
+            "name": "Carlos D",
+            "lastname": "tupack",
+            "ci": 18661255,
+            "sex": "male",
+            "email": "carlos@gmail.com",
+            "password": "1234",
+            "__v": 0
+        },
+        {
+            "type": "worker",
+            "name": "Elonk I",
+            "lastname": "Rodriguez M",
+            "ci": 15335888,
+            "sex": "male",
+            "email": "elonk@gmail.com",
+            "password": "1234",
+            "__v": 0
+        },
+        {
+            "type": "worker",
+            "name": "Fransisco A",
+            "lastname": "Briceño T",
+            "ci": 1843581,
+            "sex": "male",
+            "email": "fransisco@gmail.com",
+            "password": "1234",
+            "__v": 0
+        },
+        {
+            "type": "worker",
+            "name": "Karen N",
+            "lastname": "Garcia L",
+            "ci": 20558111,
+            "sex": "female",
+            "email": "karen@gmail.com",
+            "password": "1234",
+            "__v": 0
+        },
+        {
+            "type": "worker",
+            "name": "Adriana H",
+            "lastname": "Sandoval D",
+            "ci": 21358151,
+            "sex": "female",
+            "email": "adriana@gmail.com",
+            "password": "1234",
+            "__v": 0
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+.social
+{
+    width: 1.1em !important;
+    height:1.1em !important;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50% !important;
+    outline: 1px rgba(66, 134, 244, 1);
+    background-color: #2E2E2E;
+    margin:0;
+    padding: 0;
+}
+
+.social:hover
+{
+    background-color: #3E4551;
+}
