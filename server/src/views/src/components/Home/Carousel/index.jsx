@@ -44,13 +44,14 @@ class CarouselOne extends Component {
           length={6}
           showControls={true}
           showIndicators={true}
-          className={`z-depth-1 w-100`}>
+          className={`z-depth-1 h-100`}
+          >
           <CarouselInner>
             {
               items.map((e,i)=>
               <CarouselItem key={`${i}corusel`} itemId={`${i+1}`}>
                 <View key={`${i}coruselview`}>
-                  <img className={``} src={e.src} alt="First slide" key={`${i}carouselimg`} />
+                  <img style={{width:'100vw'}} src={e.src} alt="First slide" key={`${i}carouselimg`} />
                   <Mask overlay="black-light"></Mask>
                 </View>
                 <CarouselCaption key={`${i}coruselcaption`}>

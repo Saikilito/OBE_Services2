@@ -73,7 +73,7 @@ class App extends Component {
 
                 <NavbarE user={this.state.user} />
                 <figure className="m-0">
-                  <img src={"/assets/slider/sl9e.jpg"} alt="header-register" className="img-fluid" />
+                  <img style={{'width':'100vw'}} src={"/assets/slider/sl9e.jpg"} alt="header-register" className="img-fluid" />
                 </figure>
                 {this.handlerPanel()}
                 {this.handlerBecas(students)}

@@ -7,7 +7,7 @@ import Styles from './footerOne.module.css';
 class FooterO extends Component {
     render() {
         return (
-            <Footer id="Contacto" className={`elegant-color font-small pt-4 mt-4 ${Styles.navColor} m-0 `}>
+            <Footer id="Contacto" className={`elegant-color-dark font-small pt-4 mt-4 ${Styles.navColor} m-0 `}>
                 <Container fluid className="text-center text-md-left">
                     <Row>
                         <Col md="4">
